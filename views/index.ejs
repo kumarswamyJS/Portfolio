@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumar Swamy | Full-Stack Web Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style/main.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <div class="logo"><a href="#home">Kumarjs.dev</a></div>
+          <ul class="navigation-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="theme-toggle-container">
+            <span class="theme-label">Light</span>
+            <div class="theme-toggle" id="themeToggle">
+              <div class="theme-icons">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+              </div>
+            </div>
+            <span class="theme-label">Dark</span>
+          </div>
+          <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-heading">Hi, I'm Kumar Swamy</h1>
+            <div class="hero-tagline">Full-Stack Web Developer</div>
+            <p class="hero-description">
+              I loves building creative, user-friendly, and meaningful web
+              experiences. I enjoy turning ideas into smooth, functional designs
+              that make an impact. I'm always curious to learn new things,
+              collaborate with others, and keep growing as a developer. 🚀
+            </p>
+            <a href="#projects" class="cta-button">View My Projects</a>
+          </div>
+          <div class="profile-image">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+              alt="Kumar Swamy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a second-year
+              <b>Electronics and Communication Engineering</b> student at
+              <b>New Horizon College of Engineering, Bengaluru</b>. I'm deeply
+              passionate about learning, growing, and taking on challenges that
+              push me to think differently and build with purpose. I love
+              exploring how creativity and technology come together to solve
+              real-world problems and improve how people interact with the
+              digital world.
+            </p>
+
+            <p>
+              I believe in the power of
+              <b>clarity, consistency, and continuous improvement</b> — values
+              that guide me both in academics and in life. Whether it's
+              understanding a new concept, working on a project, or learning a
+              new skill, I strive to give my best and make progress every day.
+              I'm always curious about how things work and enjoy finding simple
+              solutions to complex ideas.
+            </p>
+
+            <p>
+              Beyond academics, I enjoy
+              <b
+                >trekking, exploring new ideas, playing online games, and
+                watching movies</b
+              >. I also enjoy connecting with new people, exchanging ideas, and
+              learning from different perspectives — it keeps me growing both
+              personally and professionally.
+            </p>
+
+            <p>
+              Every new experience teaches me something valuable, and I look
+              forward to using my skills and curiosity to create meaningful
+              projects that make a difference. 🚀
+            </p>
+
+            <h2>Certificate</h2>
+            <p>
+              The Complete Full-Stack Web Development Bootcamp, Dr. Angela Yu
+              (Udemy) | 2024 |
+              <a
+                href="https://res.cloudinary.com/dv3grtmoy/image/upload/v1760631260/notes_uploads/nipzdds6arrkvffenfmc.pdf"
+              >
+                PDF</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="page-section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="technology-card">
+            <i class="fab fa-html5 technology-icon"></i>
+            <h3 class="technology-name">HTML5</h3>
+          </div>
+          <div class="technology-card">
+            <i class="fab fa-css3-alt technology-icon"></i>
+            <h3 class="technology-name">CSS3</h3>
+          </div>
+          <div class="technology-card">
+            <i class="fab fa-js-square technology-icon"></i>
+            <h3 class="technology-name">JavaScript</h3>
+          </div>
+          <div class="technology-card">
+            <i class="fab fa-react technology-icon"></i>
+            <h3 class="technology-name">React</h3>
+          </div>
+
+          <div class="technology-card">
+            <i class="fab fa-node-js technology-icon"></i>
+            <h3 class="technology-name">Node.js</h3>
+          </div>
+          <div class="technology-card">
+            <i class="fas fa-server technology-icon"></i>
+            <h3 class="technology-name">Express</h3>
+          </div>
+
+          <div class="technology-card">
+            <i class="fas fa-database technology-icon"></i>
+            <h3 class="technology-name">PostgreSQL</h3>
+          </div>
+
+          <div class="technology-card">
+            <i class="fab fa-git-alt technology-icon"></i>
+            <h3 class="technology-name">Git</h3>
+          </div>
+
+          <div class="technology-card">
+            <i class="fas fa-cloud technology-icon"></i>
+            <h3 class="technology-name">Render</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="page-section" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets//notes.png" alt="NOTES Platform" />
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">NOTES Platform</h3>
+              <p class="project-description">
+                A full-stack web app connecting learners with writers for
+                academic work. Learners can post requests, and writers can write
+                notes to earn money securely.
+              </p>
+              <div class="project-technologies">
+                <span class="technology-tag">EJS</span>
+                <span class="technology-tag">CSS</span>
+                <span class="technology-tag">JavaScript</span>
+                <span class="technology-tag">Node.js</span>
+                <span class="technology-tag">Express</span>
+                <span class="technology-tag">PostgreSQL</span>
+                <span class="technology-tag">SSE</span>
+                <span class="technology-tag">Socket.IO</span>
+                <span class="technology-tag">Razorpay</span>
+                <span class="technology-tag">Cloudinary</span>
+                <span class="technology-tag">Render</span>
+              </div>
+              <div class="project-links">
+                <a href="https://notes-qff6.onrender.com/" class="project-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Link</a
+                >
+                <a
+                  href="https://github.com/kumarswamyJS/NOTES"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets//movie.png" alt="Movie Review Web App" />
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">Movie Review</h3>
+              <p class="project-description">
+                A full-stack web app to search and review movies and series
+                using the OMDb API. Users can filter by type, year, and ratings,
+                view details, and add personal reviews.
+              </p>
+              <div class="project-technologies">
+                <span class="technology-tag">EJS</span>
+                <span class="technology-tag">CSS3</span>
+                <span class="technology-tag">JavaScript</span>
+                <span class="technology-tag">Node.js</span>
+                <span class="technology-tag">Express</span>
+                <span class="technology-tag">PostgreSQL</span>
+                <span class="technology-tag">Axios</span>
+                <span class="technology-tag">OMDb API</span>
+                <span class="technology-tag">Render</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://movie-vo8r.onrender.com/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Link
+                </a>
+                <a href="#" target="_blank" class="project-link">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets//weather.png" alt="Weather Forecast App" />
+            </div>
+            <div class="project-details">
+              <h3 class="project-title">WeatherForecast</h3>
+              <p class="project-description">
+                A full-stack web app providing real-time weather forecasts using
+                WeatherAPI. Users can get location-based or city-specific
+                forecasts, including temperature, humidity, UV index, wind
+                speed, and weekly data.
+              </p>
+              <div class="project-technologies">
+                <span class="technology-tag">EJS</span>
+                <span class="technology-tag">CSS3</span>
+                <span class="technology-tag">JavaScript</span>
+                <span class="technology-tag">Node.js</span>
+                <span class="technology-tag">Express</span>
+                <span class="technology-tag">Axios</span>
+                <span class="technology-tag">WeatherAPI</span>
+                <span class="technology-tag">Render</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://weather-uhj7.onrender.com/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Link
+                </a>
+                <a
+                  href="https://github.com/kumarswamyJS/WEATHER-WEBP"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+        </div>
+        <p style="text-align: center; margin-bottom: 40px; font-size: 1.1rem">
+          I'm open to collaboration, freelance projects, or internships. Let's
+          connect!
+        </p>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope contact-icon"></i>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:kswamy94810@gmail.com" class="mail"
+                  >kswamy94810@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Bengaluru, Karnataka</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/kumarswamyJS" class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/kumarswamy-j-s-8410a8336/"
+                class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button" id="submitButton">
+              Send Message
+            </button>
+            <div class="loading-indicator" id="loadingIndicator">
+              <div class="spinner"></div>
+              <span>Sending your message...</span>
+            </div>
+            <div class="form-message" id="formMessage"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+        <p class="copyright">
+          &copy; <%= new Date().getFullYear() %> Kumar Swamy. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="/style/style.js"></script>
+  </body>
+</html>
