@@ -782,7 +782,7 @@ textarea.form-control {
 /* Footer */
 .site-footer {
   background-color: var(--card-bg);
-  padding: 40px 0 20px;
+  padding: 20px 0 20px;
   text-align: center;
 }
 
@@ -1324,7 +1324,7 @@ textarea.form-control {
   }
 
   .site-footer {
-    padding: 30px 0 15px;
+    padding: 15px 0 15px;
   }
 }
 
