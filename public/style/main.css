@@ -342,6 +342,23 @@ body {
   align-items: center;
 }
 
+.values-list {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+}
+
+.values-list li {
+  margin-bottom: 0.5rem;
+}
+
+.certificate-card {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
 .about-text {
   opacity: 0;
   transform: translateY(30px);
@@ -568,7 +585,7 @@ body {
 }
 
 .technology-tag {
-  background-color: gray;
+  background-color: var(--secondary-color);
   color: white;
   padding: 5px 10px;
   border-radius: 20px;
@@ -993,4 +1010,24 @@ textarea.form-control {
 
 .submit-button:disabled::before {
   display: none;
+}
+
+#typing-text {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white; /* blinking cursor */
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    border-color: white;
+  }
+  25%,
+  75% {
+    border-color: transparent;
+  }
 }

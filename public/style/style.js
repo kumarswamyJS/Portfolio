@@ -141,3 +141,19 @@ function showMessage(text, type) {
     formMessage.classList.remove("show");
   }, 2500);
 }
+
+const heroText = "Hi, I'm Kumarswamy J S ";
+const typingSpeed = 120; // milliseconds per character
+let heroIndex = 0;
+
+function typeHeroText() {
+  if (heroIndex < heroText.length) {
+    document.getElementById("typing-text").innerHTML +=
+      heroText.charAt(heroIndex);
+    heroIndex++;
+    setTimeout(typeHeroText, typingSpeed);
+  }
+}
+
+// Start typing effect after page loads
+window.addEventListener("DOMContentLoaded", typeHeroText);
