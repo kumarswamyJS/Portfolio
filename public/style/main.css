@@ -1187,12 +1187,6 @@ textarea.form-control {
     font-size: 1.2rem;
   }
 
-  /*
-    FIX: Removed the .theme-toggle-container rule from this
-    media query. The 'top' and 'left' properties
-    were related to the broken absolute positioning.
-  */
-
   .theme-toggle {
     width: 50px;
     height: 25px;
@@ -1288,6 +1282,10 @@ textarea.form-control {
   .contact-info {
     gap: 15px;
   }
+  .contact-info-moblie {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .contact-item {
     flex-direction: column;
@@ -1357,4 +1355,8 @@ textarea.form-control {
   .project-link {
     justify-content: center;
   }
+}
+.mail {
+  text-decoration: none;
+  color: var(--primary-color);
 }
