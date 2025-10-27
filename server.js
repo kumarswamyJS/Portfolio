@@ -28,7 +28,6 @@ app.post("/mail", async (req, res) => {
       subject: "New Contact Form Submission",
       text: `
         You have a new message:
-        -----------------------
         Name: ${name}
         Email: ${email}
         Message: ${message}
