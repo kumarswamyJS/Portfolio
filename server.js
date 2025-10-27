@@ -23,7 +23,7 @@ app.post("/mail", async (req, res) => {
 
   try {
     await resend.emails.send({
-      from: "Your Website <onboarding@resend.dev>", // or a verified domain
+      from: "Your Website <kumarswamyjs.onrender.com>",
       to: process.env.EMAIL_USER,
       subject: "New Contact Form Submission",
       text: `
